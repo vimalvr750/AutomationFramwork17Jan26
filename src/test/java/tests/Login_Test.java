@@ -33,5 +33,7 @@ public class Login_Test extends BaseTest {
 		
 		
 		System.out.println("Test is Completed: " + title);
+		
+		System.out.println("Test is Success");
 	}
 }
