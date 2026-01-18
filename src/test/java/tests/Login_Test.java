@@ -27,7 +27,7 @@ public class Login_Test extends BaseTest {
 		
 		driver.findElement(By.xpath("//span[text()='Admin']")).click();
 		
-		String pageTitle = driver.getTitle();
+		String pageTitle = driver.getTitle().toLowerCase();
 		Assert.assertTrue(true, pageTitle);
 		
 		
